@@ -41,10 +41,11 @@ header.bg-gris{
 	background-size: cover;
 	background-position: center;
 	text-align: center;
-	color: #fff;
+	color: #fff;	
 	
 }
-#hero h4{
+#hero h4,
+#hero-slides h4{
 	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 	color: #cdb083;
@@ -52,13 +53,15 @@ header.bg-gris{
 	font-weight: 500;
 	letter-spacing:1px;
 }
-#hero h1{
+#hero h1,
+#hero-slides h1{
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 50px;
 	margin-bottom: 80px;
 }
-#hero .btn{
+#hero .btn,
+#hero-slides .btn{
 	font-size: 14px;
 	background-color: transparent;
 	border-color: #cdb083;
@@ -265,7 +268,15 @@ footer a:hover{
 }
 
 
-
+#hero-slides .overlay{
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+#hero-slides .btn{
+	width: 350px;
+	margin: auto;
+}
 
 
 
